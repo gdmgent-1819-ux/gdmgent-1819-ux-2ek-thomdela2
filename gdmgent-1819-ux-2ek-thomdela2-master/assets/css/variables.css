@@ -1,0 +1,26 @@
+@import url("https://use.typekit.net/zmo3hhk.css");
+
+:root{
+    /* Colors */
+    --c-white: #ffffff;
+    --c-black: #000000da;
+    --c-blue: #99ffffda;
+    --c-pink: #e399ffda;
+    --c-green: #abff99da;
+
+    /* Colors Hover */
+
+    --c-black-hover: #000000;
+    --c-blue-hover: #99ffff;
+    --c-pink-hover: #e399ff;
+    --c-green-hover: #abff99;
+
+    /* Font */
+    --f-main: 'futura-pt';
+    --f-weightMain: 700;
+    --f-sizeMain: 50pt;
+    --f-sizeSecundary: 23pt;
+
+    /* Margins */
+    
+}

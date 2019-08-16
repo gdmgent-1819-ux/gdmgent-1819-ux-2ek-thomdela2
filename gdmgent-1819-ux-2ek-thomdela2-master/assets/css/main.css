@@ -1,0 +1,462 @@
+@import url('./variables.css');
+
+html {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 91.66vw;
+    height: 179.629vh;
+}
+
+.logo {
+    width: 160px;
+    position: absolute;
+    top: 4.6vh;
+    left: 4.166vw;
+}
+
+.mid {
+    width: 100%;
+    height: 89.814vh;
+}
+
+#onzeCampussen {
+    width: 100%;
+    height: 89.814vh;
+    background: black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.blank {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: var(--f-sizeMain);
+    padding: 0%;
+    margin: 0%;
+}
+
+h2 {
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: var(--f-sizeSecundary);
+    padding: 2%;
+    margin: 0%;
+}
+
+.boxes {
+    margin-top: 10.185vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ondernemen {
+    width: 44.79vw;
+    height: 26.02vh;
+    background: var(--c-blue);
+}
+
+.personenzorg {
+    width: 44.79vw;
+    height: 26.02vh;
+    background: var(--c-pink);
+}
+
+.wetenschappen {
+    width: 52.60vw;
+    height: 26.02vh;
+    background: var(--c-green);
+    margin-top: 3.8888vh;
+}
+
+.campus {
+    width: 36.97vw;
+    height: 26.02vh;
+    background: var(--c-black);
+    margin-top: 3.8888vh;
+}
+
+.campus h2 {
+    color: white;
+}
+
+.ondernemen h2 {
+    color: black;
+}
+
+.personenzorg h2 {
+    color: black;
+}
+
+.wetenschappen h2 {
+    color: black;
+}
+
+.ondernemen:hover {
+    background: var(--c-blue-hover);
+}
+
+.personenzorg:hover {
+    background: var(--c-pink-hover);
+}
+
+.wetenschappen:hover {
+    background: var(--c-green-hover);
+}
+
+.campus:hover {
+    background: var(--c-black-hover);
+}
+
+.title {
+    width: 100%;
+    height: 17.685vh;
+    /* background: rgba(7, 187, 241, 0.589); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.namen {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.naam {
+    width: 39.583vw;
+    height: 15.277vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.mariawende h2{
+    color: white;
+}
+
+.imgMariawende{
+    width: 30vw;
+}
+
+.blydhove h2{
+    color: white;
+}
+
+.imgBlydhove{
+    width: 30vw;
+}
+
+.images {
+    width: 100%;
+    height: 57vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image {
+    width: 34.583vw;
+    height: 40.277vh;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formName{
+    display: flex;
+    margin-top: 30px;
+}
+
+.formName input{
+    margin: 15px;
+    padding: 5px;
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.4);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    width: 30vw;
+}
+
+.formName input:hover{
+    color: rgba(0, 0, 0, 0.55);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.55);
+}
+
+.formName input:focus{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.formDate{
+    display: flex;
+    /* margin-top: 30px;  */
+}
+
+.formEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date{
+    margin: 15px;
+    padding: 5px;
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.4);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    width: 15vw;
+}
+
+#mail{
+    margin: 15px;
+    padding: 5px;
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.4);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4) ;
+    width: 45vw;
+}
+
+#message{
+    width: 63vw;
+    height: 20vh;
+    background: none;
+    color: black;
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 20pt;
+}
+
+.formEnd button{
+    margin: 30px;
+    padding: 15px;
+    border: none;
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 18pt;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.4);
+    background: none;
+}
+
+.formEnd button:hover{color: rgba(0, 0, 0, 0.55); cursor: pointer;}
+.formEnd button:active{color: black;}
+
+#date:hover{color: rgba(0, 0, 0, 0.55)}
+#date:focus{color: black;}
+
+#mail:hover{color: rgba(0, 0, 0, 0.55)}
+#mail:focus{color: black;}
+
+#message:hover{color: rgba(0, 0, 0, 0.55)}
+#message:focus{color: black;}
+
+#message{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#message:hover{color: rgba(0, 0, 0, 0.55)}
+#message:focus{color: black;}
+
+#message::placeholder{color: rgba(0, 0, 0, 0.4)}
+
+.footer{
+    position: absolute;
+    height: 14vh;
+    width: 91.66vw;
+    top: 276vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img{
+    height: 7vh;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+        .logo {
+        top: 3.6vh;
+        width: 20vw;
+    }
+
+    h1 {
+        font-size: 22pt;
+    }
+
+    .boxes {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0%;
+        left: 4.166vw;
+        right: 4.166vw;
+    }
+
+    .ondernemen {
+        width: 100%;
+        height: 14vh;
+        background: var(--c-blue);
+        margin-top: 3.8888vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personenzorg {
+        width: 100%;
+        height: 14vh;
+        background: var(--c-pink);
+        margin-top: 3.8888vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wetenschappen {
+        width: 100%;
+        height: 14vh;
+        background: var(--c-green);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campus {
+        width: 100%;
+        height: 14vh;
+        background: var(--c-black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .namen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgMariawende{
+        width: 60vw;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .imgBlydhove{
+        width: 60vw;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .mariawende h2{
+        font-size: 18pt;
+    }
+    
+    .blydhove h2{
+        font-size: 18pt;
+    }
+
+    .blydhove{
+        margin-top: 2vh;
+    }
+
+    .title{
+        align-items: center;
+    }
+
+    .blank{
+        align-items: center;
+    }
+
+    .formName{
+        flex-direction: column;
+    }
+
+    .formDate{
+        flex-direction: column;
+    }
+
+    .formName input{
+        width: 50vw;
+    }
+
+    #date{
+        width: 50vw;
+    }
+
+    #mail{
+        width: 50vw;
+    }
+
+    #message{
+        width: 50vw;
+    }
+
+    .footer{
+        align-items: center;
+    }
+
+    .footer img{
+        height: 6vh;
+    }
+}

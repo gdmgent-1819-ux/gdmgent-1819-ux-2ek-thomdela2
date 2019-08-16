@@ -1,0 +1,231 @@
+@import url('variables.css');
+
+html{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.container{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--c-green);
+}
+
+.content{
+    width: 91.66vw;
+    height: 179.629vh;
+    background: white;
+}
+
+.logo{
+    width: 160px;
+    position: absolute;
+    top: 4.6vh;
+    left: 4.166vw;
+}
+
+.blank{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1{
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: var(--f-sizeMain);
+    padding: 0%;
+    margin: 0%;
+}
+
+h2{
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: var(--f-sizeSecundary);
+    padding: 2%;
+    margin: 0%;
+}
+
+h3{
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 22pt;
+    padding: 0;
+    margin: 0; 
+}
+
+h4{
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 15pt;
+    padding: 0;
+    margin: 0; 
+}
+
+.mainImage{
+    height: 48.148vh;
+    width: 47.95vw;
+}
+
+.boxes{
+    width: 100%;
+    height: 64.814vh;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 5vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.richting{
+    width: 24.635vw;
+    height: 30.407vh;
+    background: black;
+    color: white;
+    position: absolute;
+    left: 8.333vw;
+    top: 56.111vh;
+    display: flex;
+    align-items: center;
+}
+
+.mobileImage{
+    display: none;
+}
+
+.slogan{
+    /* background: rgba(255, 0, 0, 0.178); */
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h5{
+    font-family: var(--f-main);
+    font-weight: var(--f-weightMain);
+    font-size: 40pt;
+    padding: 0;
+    margin: 0; 
+}
+
+.faq{
+    position: absolute;
+    right: 8.333vw;
+    top: 160vh;
+    /* background: rgba(255, 0, 0, 0.274); */
+    width: 30vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.faq h4{
+    padding: 4px;
+    text-decoration: underline;
+    text-decoration-color: var(--c-green);
+}
+
+.secondPicture{
+    position: absolute;
+    left: 7vw;
+    top: 130vh;
+    width: 50vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        top: 3.6vh;
+        width: 20vw;
+    }
+
+    .content {
+        height: 189vh;
+    }
+    
+    h1{
+        font-size: 22pt;
+    }
+
+    .mainImage{
+        display: none;
+    }
+
+    .richting{
+        width: 64.635vw;
+        height: 25.407vh;
+        background: black;
+        color: white;
+        position: absolute;
+        left: 0 auto;
+        top: 60vh;
+        display: flex;
+        align-items: center;
+    }
+
+    h3{
+        font-size: 20pt;
+    }
+    
+    h4{
+        font-size: 10pt;
+    }
+
+    .mobileImage{
+        display: block;
+        height: 40vh;
+        width: 70vw;
+        object-fit: cover;
+    }
+
+    .slogan{
+        /* background: rgba(255, 0, 0, 0.212);
+        top: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    h5{
+        font-size: 20pt;
+    }
+
+    .faq{
+        width: 60vw;
+        top: 165vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .secondPicture{
+        top: 120vh;
+        height: 60vh;
+        width: 60vw;
+        object-fit: cover;
+        margin-left: auto;
+    }
+}
